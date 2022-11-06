@@ -1,0 +1,6 @@
+<nav class="navbar" color="">
+  <h1 class="site-title">AngularX Trading Platform</h1>
+  <button mat-raised-button color="accent" (click)="login()" *ngIf="!authenticated">Login</button>
+  <button mat-raised-button color="accent" (click)="logout()" *ngIf="authenticated">Logout</button>
+</nav>
+
